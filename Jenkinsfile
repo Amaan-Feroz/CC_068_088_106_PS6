@@ -33,7 +33,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Deploy Kubernetes resources
-                bat 'kubectl config use-context minikube'
+             
                
                 
             }
