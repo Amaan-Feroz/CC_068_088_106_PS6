@@ -110,7 +110,7 @@ mongoose
     "mongodb+srv://dino:dino@dinodatabase.svttppf.mongodb.net/?retryWrites=true&w=majority&appName=Dinodatabase"
   ) //connect to database , then create middleware server
   .then(() => {
-    app.listen(8000, () => console.log("uc3 running"));
+    app.listen(5003, () => console.log("uc3 running"));
   })
   .catch((error) => {
     console.log(error);
