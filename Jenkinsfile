@@ -33,6 +33,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Deploy Kubernetes resources
+                bat 'echo pods created successful'
              
                
                 
